@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html lang="Pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img" href="fotos/projeto.jpeg">
     <title>Projeto vó rita de cassia</title>
 </head>
 <body>
-    <header>
-        <h1>Projeto vó rita de cassia</h1>
-        <nav>
-            <ul>
-                <li><a  target="_blank" href="sobre.html">  <button>Sobre nosso projeto</button></a></li>
-                <li><a  target="_blank"  href="vórita.html">  <button>Vó rita de cassia</button></a></li>
-                <li><a target="_blank"  href="ajudar.html">  <button>Como ajudar</button></a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="project">
+        <h1 class="fonteproj">Projeto vó rita de cassia </h1>
+        <img src="fotos/icone (2).png ">
+        <div class="photo">
+            <img src="fotos/fotosdoprojeto2.jpeg" width="200px" height="200px">
+            <img src="fotos/projetofamilia.png" width="300px" height="200x" alt="rita de cassias">
+            <div class="about">
+                <p>Projeto vó rita de cassia iniciou-se com intuito de ajudar, fazer apredizagem das crianças.</p>
+                <span>Projeto vó rita de cassia tem como objetivo atender crianças carentes ao redor do mundo, educação, religão e brincadeiras. 
+                    <br>
+                    O projeto "Vó Rita de Cássia" é uma iniciativa comunitária que visa auxiliar crianças carentes por meio do ensino religioso. Fundado pela dedicada voluntária Rita de Cássia, conhecida carinhosamente como Vó Rita, o projeto tem como objetivo proporcionar às crianças de comunidades carentes acesso a valores morais e espirituais por meio da educação religiosa.
+                    <br>
+                    <span>
+                        Localizado em um bairro desfavorecido, o projeto oferece aulas semanais que abordam histórias bíblicas, princípios éticos e valores humanos universais, com o intuito de promover o desenvolvimento integral das crianças. Além das atividades religiosas, o projeto também oferece suporte educacional complementar, como reforço escolar e atividades extracurriculares.
+                    </span>
+                    <br>
+                    <span>
+                        A equipe do projeto é composta por voluntários dedicados, incluindo professores de religião, pedagogos, assistentes sociais e membros da comunidade local. Eles trabalham em estreita colaboração com as famílias das crianças atendidas, buscando promover um ambiente acolhedor e de apoio para o crescimento e desenvolvimento saudável de cada criança.
+                    </span>
+                    <br>
+                    "Vó Rita de Cássia" é mais do que apenas um projeto educacional; é uma rede de apoio e esperança para crianças que enfrentam desafios em suas vidas. Através do amor, da educação e da fé, o projeto visa capacitar essas crianças a alcançarem seu pleno potencial e a construírem um futuro melhor para si mesmas e para suas comunidades.
+            </div>
+        </div>
+    </div>
+    <div class="jesusteama">
+        <form method="post">
+            <div class="ajude">
+                <h1>como posso ajudar?</h1>
+                <p id="ajudar">Ajude ao projeto fazendo uma pequena doação</p>
+                <img src="fotos/qrcode-pix.png" width="100px">
+                <br>
+                <div class="redesocias">
+                    <h1>Contato</h1>
+                    <a href="">
+                        <button><img src="fotos/instagram.jpg" width="50px" > </button>
+                    </a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=558588881626&text=Olá%Gostaria%de%ajudar">
+                        <button><img src="fotos/zap icone.png"width="50px"></button>
+                    </a>
+                </div>
+            </div>
+        </form>
+        <button id="aperta" class="jesus">Aperte aqui!</button>
+    </div>
+    <script>
+        var aperta = document.getElementById("aperta");
+
+        aperta.addEventListener("click",function() {
+
+           alert("Jesus te ama!") 
+        });
+    </script>
 </body>
 </html>
