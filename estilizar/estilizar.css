@@ -1,0 +1,52 @@
+body{
+    background-color: #dabe95;
+}
+.title1{
+    font-style: italic;
+    font-family: PROJETO;
+    font-size: 50px;
+    width: 40%;
+    margin-left: 37%;
+    margin-right: auto;
+}
+@font-face {
+    font-family: PROJETO ;
+    src: url(/Fontes/Our\ Spring.otf);
+}
+.title2{
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-left: 120px;
+    width: 80%;
+    font-style: italic;
+}
+.title3{
+    font-style: italic;
+    font-family: PROJETO;
+    font-size: 50px;
+    width: 40%;
+    margin-left: 39%;
+    margin-right: 50%;
+    
+}
+#img1{
+    margin-left: 40%;
+    border: 4px solid yellow;
+    border-radius: 20px;
+}
+#aperta{
+    font-family: PROJETO;
+    font-size: 20px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #dabe95;
+    box-shadow: 10px solid black;
+}
+#aperta:hover{
+    background-color: #c59347;
+    color: white;
+    padding: 4px;
+}
