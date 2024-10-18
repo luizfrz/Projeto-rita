@@ -1,25 +1,32 @@
 body{
-    background-color: #dabe95;
+    background-image: url(/Fotos/projeto2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .title1{
     font-style: italic;
     font-family: PROJETO;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid white;
     font-size: 50px;
-    width: 40%;
-    margin-left: 37%;
+    width: 39%;
+    margin-left: 30%;
     margin-right: auto;
 }
 @font-face {
     font-family: PROJETO ;
     src: url(/Fontes/Our\ Spring.otf);
 }
+
 .title2{
     font-size: 20px;
+    padding: 20px;
     background-color: white;
     border: 10px solid white;
     border-radius: 20px;
     margin-left: 120px;
-    width: 80%;
+    width: 83%;
     font-style: italic;
 }
 .title3{
@@ -27,11 +34,12 @@ body{
     font-family: PROJETO;
     font-size: 50px;
     width: 40%;
-    margin-left: 39%;
+    margin-left: 40%;
     margin-right: 50%;
-    
+
 }
 #img1{
+    width: 200px;
     margin-left: 40%;
     border: 4px solid yellow;
     border-radius: 20px;
@@ -49,4 +57,7 @@ body{
     background-color: #c59347;
     color: white;
     padding: 4px;
+}
+@media screen and (max-width: 720px) {
+    
 }

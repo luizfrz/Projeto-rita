@@ -7,9 +7,4 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 });
-var aperta = document.getElementById("aperta");
-
-aperta.addEventListener("click",function() {
-
-   alert("Jesus te ama!") 
-});
+alert("o")
