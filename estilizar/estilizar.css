@@ -7,9 +7,10 @@ body{
 .title1{
     font-style: italic;
     font-family: PROJETO;
-    background-color: white;
+    color: white;
+    background-color: black;
     border-radius: 10px;
-    border: 10px solid white;
+    border: 4px solid white;
     font-size: 50px;
     width: 31%;
     margin-left: 32%;
@@ -49,18 +50,22 @@ body{
     border: 4px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
-#aperta{
+#apertado{
     font-family: PROJETO;
     font-size: 20px;
     border: none;
     margin: 20px;
     cursor: pointer;
-    background-color: #dabe95;
+    color: white;
+    margin-left: 42%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
     box-shadow: 10px solid black;
 }
-#aperta:hover{
-    background-color: #c59347;
-    color: white;
+#apertado:hover{
+    background-color: white;
+    color: black;
 }
 @media screen and (max-width: 720px) {
     
@@ -106,12 +111,77 @@ body{
 }
 .titlemain{
     color: black;
+    background-color: white;
     font-family: PROJETO;
     border-radius: 10px;
     width: 30%;
-    font-size: 40px;
+    font-size: 90px;
     height: 65%;
     margin-left: auto;
     text-align: center;
     margin-right: auto;
+}
+.carrossel {
+  position: relative;
+  width: 800px; /* largura do carrossel */
+  height: 600px; /* altura do carrossel */
+  overflow: hidden;
+}
+.titledoe{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 70px;
+    width: 40%;
+    font-family: PROJETO;
+    padding: 29px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.titledoe2{
+    color: white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-family: PROJETO;
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+}
+.qrcode{
+    width: 200px;
+    margin-left: 41%;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.chave{
+    font-family: PROJETO;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media screen and (max-width: 700px) {
+    .titledoe, .titledoe2, .chave{
+        width: 70%;
+        border-radius: 30px;
+
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .qrcode{
+        width: 200px;
+        margin-left: 87px;
+        border: 10px solid black;
+        border-radius: 10px;
+    }
+    
 }
