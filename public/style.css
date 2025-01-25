@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: yellow;
+}
+.Options-btn{
+    padding:5px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: yellow;
+    margin: 30px;
+    margin-left: 200px;
+    width: 200px;
+}
+.Options-btn:hover{
+    background-color: white;
+}
+.a-btn{
+    text-decoration: none;
+}
+.a-btn:hover{
+    color: yellow;
+}
