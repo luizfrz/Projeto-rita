@@ -8,10 +8,10 @@ header{
 }
 .Options-btn{
     padding:5px;
+    margin: 30px;
     border: 2px solid white;
     border-radius: 4px;
     background-color: yellow;
-    margin: 30px;
     margin-left: 200px;
     width: 200px;
 }
@@ -23,4 +23,22 @@ header{
 }
 .a-btn:hover{
     color: yellow;
+}
+/* SEÇÃO DO PROJETO*/
+@font-face {
+    font-family: PROJETO ;
+    src: url(/assets/fontes/Our\ Spring.otf);
+}
+.Projeto{
+    font-family: PROJETO;
+    font-size: 50px;
+    text-align: center;
+}
+.leitura-projeto{
+    padding: 30px;
+    border: 30px solid white;
+    border-radius: 5px;
+    background-color: yellow;
+}
+img{
 }
