@@ -40,5 +40,12 @@ header{
     border-radius: 5px;
     background-color: yellow;
 }
-img{
+.img-child{
+    transition: transform 0.2s;
+}
+.img-child:hover{
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    cursor: pointer;
+    transform: scale(1.2);
 }
