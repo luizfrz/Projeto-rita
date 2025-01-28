@@ -99,16 +99,21 @@ header{
 }
 .contact{
     background-color: yellow;
-   padding: 10px;
 }
 .zap{
     transition: transform 0.2s;
-    margin-left: 20px;
+    margin-left: 90%;
 }
 .zap:hover{
     background-color: green;
     color:white;
     border-radius: 30px;
     transform: scale(1.2);
-    
+}
+.insta{
+    transition: transform 0.2s;
+    margin-left: 90%;
+}
+.insta:hover{
+    transform: scale(1.2);
 }
