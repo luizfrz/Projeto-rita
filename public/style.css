@@ -49,3 +49,60 @@ header{
     cursor: pointer;
     transform: scale(1.2);
 }
+.pix-key{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    background-color: yellow;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+.pix-key:hover{
+    background-color: rgb(167, 167, 93);
+}
+.pix-key2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.key-img{
+    border: 5px solid yellow;
+    margin-left: 43%;
+    border-radius: 4px;
+}
+.Carrouselprincipal {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.Carrouselfilho {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.Carrouselfilho img {
+    width: 100%;
+    max-width: 100%;
+}
+.Carrouselbutton {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.Carrouselbutton button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Carrouselbutton button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/style.css">
     <link rel="shortcut icon" href="/assets/foto/ICONE-REMOVIDO.png" type="image/x-icon">
-    <title>Projeto Vó rita cassia</title>
+    <title>Apoie o projeto</title>
 </head>
 <body>
 <header>
@@ -19,6 +19,7 @@
     </nav>
 </div>
 </header>
+
 <div>
     <h1 class="Projeto">Conheça o projeto</h1>
     <fieldset class="leitura-projeto">
@@ -27,33 +28,18 @@
             Após o falecimento de Rita de Cássia, sua filha, Tânia Maria, decidiu colocar o projeto em prática, buscando realizar o sonho de sua mãe e ajudar a comunidade. A caminhada foi difícil, mas Tânia Maria sempre teve fé de que, um dia, o projeto se tornaria grande. Com o passar dos anos, ela conseguiu diversas parcerias para apoiar o projeto. Uma das primeiras parcerias foi com Chico do Caranguejo, que levou as crianças para passeios na piscina.
             Logo depois, outras parcerias foram surgindo, como o Supermercado Cumbuco, que também se juntou ao projeto.</p>
             <h2 class="Projeto">Fotos do projeto</h2>
-            <div>
-           <div class="Carrouselprincipal">
-        <div class="Carrouselfilho">
-            <img  src="/assets/foto/fotosdoprojeto.jpeg"width="200px"  alt="">
-            <img  src="/assets/foto/fotosdoprojeto2.jpeg"width="200px" alt="">
-            <img  src="/assets/foto/fotosdoprojeto3.jpeg"width="200px"  alt="">
-            <img  src="/assets/foto/projeto2.png"width="200px"  alt="">
-            <img  src="/assets/foto/projeto4 (2).png"width="100px"  alt="">
-        </div>
-        <div class="Carrouselbutton">
-            <button onclick="moverSlide(-1)">&#9664;</button>
-            <button onclick="moverSlide(1)">&#9654;</button>
-        </div>
-    </div>
-        </div>
         </fieldset>
 </div>
-<script>
-let index = 0;
-
-function moverSlide(direction) {
-    const slides = document.querySelector('.Carrouselfilho');
-    const totalSlides = slides.children.length;
-    index = (index + direction + totalSlides) % totalSlides;
-    slides.style.transform = `translateX(-${index * 100}%)`;
-}
-
-</script>
+<div>
+    <h2 class="Projeto">Apoie o projeto com simples doação</h2>
+    <details >
+        <summary class="pix-key">
+            Nossa chave
+        </summary>
+        <h3 class="pix-key2">Nome: Tania maria </h3>
+        <h3 class="pix-key2">Banco: Bradesco</h3>
+        <img class="key-img" src="/assets/foto/qrcode-pix.png" width="200px" alt="chave">
+    </details>
+</div>
 </body>
 </html>
