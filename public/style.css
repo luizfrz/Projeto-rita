@@ -40,15 +40,6 @@ header{
     border-radius: 5px;
     background-color: yellow;
 }
-.img-child{
-    transition: transform 0.2s;
-}
-.img-child:hover{
-    overflow: hidden;
-    -webkit-transition: -webkit-transform .5s ease;
-    cursor: pointer;
-    transform: scale(1.2);
-}
 .pix-key{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -105,4 +96,19 @@ header{
 }
 .Carrouselbutton button:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+.contact{
+    background-color: yellow;
+   padding: 10px;
+}
+.zap{
+    transition: transform 0.2s;
+    margin-left: 20px;
+}
+.zap:hover{
+    background-color: green;
+    color:white;
+    border-radius: 30px;
+    transform: scale(1.2);
+    
 }
