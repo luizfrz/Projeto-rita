@@ -6,6 +6,10 @@
 header{
     background-color: yellow;
 }
+body{
+     
+}
+/* aba de buttons */
 .Options-btn{
     padding:5px;
     margin: 30px;
@@ -40,29 +44,6 @@ header{
     border-radius: 5px;
     background-color: yellow;
 }
-.pix-key{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    background-color: yellow;
-    width: 200px;
-    border-radius: 5px;
-    padding: 15px;
-    margin-left: 43%;
-    cursor: pointer;
-}
-.pix-key:hover{
-    background-color: rgb(167, 167, 93);
-}
-.pix-key2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-.key-img{
-    border: 5px solid yellow;
-    margin-left: 43%;
-    border-radius: 4px;
-}
 .Carrouselprincipal {
     width: 80%;
     margin: 20px auto;
@@ -75,7 +56,7 @@ header{
     transition: transform 0.5s ease-in-out;
 }
 .Carrouselfilho img {
-    width: 100%;
+    width: 40%;
     max-width: 100%;
 }
 .Carrouselbutton {
