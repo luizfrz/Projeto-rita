@@ -98,3 +98,8 @@ body{
 .insta:hover{
     transform: scale(1.2);
 }
+.infoctt{
+    margin-left: 85%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
