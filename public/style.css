@@ -6,29 +6,29 @@
 header{
     background-color: yellow;
 }
-body{
-     
+.menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
 }
-/* aba de buttons */
-.Options-btn{
-    padding:5px;
-    margin: 30px;
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: yellow;
-    margin-left: 200px;
-    width: 200px;
+
+.menu-item {
+    margin: 0 20px;
 }
-.Options-btn:hover{
-    background-color: white;
+
+.menu-link {
+    text-decoration: none; 
+    color: black;
+    font-size: 20px; 
+    padding: 10px 20px; 
+    display: block;
+    transition: background-color 0.3s; 
 }
-.a-btn{
-    text-decoration: none;
-}
-.a-btn:hover{
+
+.menu-link:hover {
     color: yellow;
+    background-color: white; 
 }
-/* SEÇÃO DO PROJETO*/
 @font-face {
     font-family: PROJETO ;
     src: url(/assets/fontes/Our\ Spring.otf);
@@ -68,7 +68,7 @@ body{
     transform: translateY(-50%);
 }
 .Carrouselbutton button {
-    background-color: rgba(0, 0, 0, 0.5);
+   background-color: yellow;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -76,7 +76,8 @@ body{
     border-radius: 5px;
 }
 .Carrouselbutton button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+   background-color: white;
+   color: black;
 }
 .contact{
     background-color: yellow;
@@ -84,6 +85,7 @@ body{
 .zap{
     transition: transform 0.2s;
     margin-left: 90%;
+    margin: 0 10px;
 }
 .zap:hover{
     background-color: green;
