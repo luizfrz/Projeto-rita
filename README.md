@@ -1,6 +1,5 @@
 # Projeto Vó Rita de Cássia
 
-
 ## Objetivo
 
 O projeto **Vó Rita de Cássia** tem como propósito...
