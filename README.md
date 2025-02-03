@@ -6,13 +6,12 @@ O projeto **Vó Rita de Cássia** tem como propósito...
 
 ## Tecnologias Utilizadas
 
-- **Linguagens de Programação**: []
+- **Linguagens de Programação**: Javascript
 - **Frameworks**: []
 - **Banco de Dados**: []
-- **Outras tecnologias**: []
+- **Outras tecnologias**: Canva, Removebg
 
 ## Como Usar
-
 1. Faça um clone deste repositório:
 
     ```bash
