@@ -44,22 +44,28 @@ header{
     border-radius: 5px;
     background-color: yellow;
 }
-.Carrouselprincipal {
-    width: 80%;
-    margin: 20px auto;
-    overflow: hidden;
+.slider {
     position: relative;
+    border: 3px solid white;
+    width: 440px;
+    height: 300px;
+    margin-left: 30%;
+    overflow: hidden;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.Carrouselfilho {
+.slides {
     display: flex;
+    width: 200%;
+    height: 100%;
     transition: transform 0.5s ease-in-out;
 }
-.Carrouselfilho img {
-    width: 40%;
-    max-width: 100%;
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.Carrouselbutton {
+.buttons {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -67,17 +73,13 @@ header{
     justify-content: space-between;
     transform: translateY(-50%);
 }
-.Carrouselbutton button {
-   background-color: yellow;
+.buttons button {
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
-}
-.Carrouselbutton button:hover {
-   background-color: white;
-   color: black;
+    font-size: 18px;
 }
 .contact{
     background-color: yellow;
@@ -101,6 +103,8 @@ header{
     transform: scale(1.2);
 }
 .infoctt{
+    padding: 0;
+    margin: 0%;
     margin-left: 85%;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
