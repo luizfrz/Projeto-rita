@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-O projeto **Vó Rita de Cássia** tem como propósito...
+O projeto **Vó Rita de Cássia** tem como propósito... 
 
 ## Tecnologias Utilizadas
 
